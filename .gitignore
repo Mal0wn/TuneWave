@@ -91,3 +91,4 @@ iOSInjectionProject/
 
 # Ignore Config.plist
 NewsApp/NewsApp/Utils/Config.plist
+Config.plist
