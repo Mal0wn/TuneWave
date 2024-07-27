@@ -25,7 +25,6 @@
 		66F634DA2C54F496007CBE8C /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 66F634D92C54F496007CBE8C /* SDWebImageMapKit */; };
 		66F634DC2C54F5A8007CBE8C /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 66F634DB2C54F5A8007CBE8C /* SwiftyJSON */; };
 		66F634DE2C54F5BB007CBE8C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 66F634DD2C54F5BB007CBE8C /* Alamofire */; };
-		66F634E02C54F5BB007CBE8C /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 66F634DF2C54F5BB007CBE8C /* AlamofireDynamic */; };
 		66F634E22C54FBA4007CBE8C /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F634E12C54FBA4007CBE8C /* ArticleViewController.swift */; };
 		66F634E42C54FBE4007CBE8C /* ArticlesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F634E32C54FBE4007CBE8C /* ArticlesViewModel.swift */; };
 		66F634E62C54FC82007CBE8C /* ArticleView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F634E52C54FC82007CBE8C /* ArticleView.storyboard */; };
@@ -47,6 +46,19 @@
 			remoteInfo = NewsApp;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		66F634E82C5501B6007CBE8C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		66F634922C54EBEF007CBE8C /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,7 +91,6 @@
 			files = (
 				66F634DC2C54F5A8007CBE8C /* SwiftyJSON in Frameworks */,
 				66F634DE2C54F5BB007CBE8C /* Alamofire in Frameworks */,
-				66F634E02C54F5BB007CBE8C /* AlamofireDynamic in Frameworks */,
 				66F634DA2C54F496007CBE8C /* SDWebImageMapKit in Frameworks */,
 				66F634D82C54F496007CBE8C /* SDWebImage in Frameworks */,
 			);
@@ -203,6 +214,7 @@
 				66F6348E2C54EBEF007CBE8C /* Sources */,
 				66F6348F2C54EBEF007CBE8C /* Frameworks */,
 				66F634902C54EBEF007CBE8C /* Resources */,
+				66F634E82C5501B6007CBE8C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -214,7 +226,6 @@
 				66F634D92C54F496007CBE8C /* SDWebImageMapKit */,
 				66F634DB2C54F5A8007CBE8C /* SwiftyJSON */,
 				66F634DD2C54F5BB007CBE8C /* Alamofire */,
-				66F634DF2C54F5BB007CBE8C /* AlamofireDynamic */,
 			);
 			productName = NewsApp;
 			productReference = 66F634922C54EBEF007CBE8C /* NewsApp.app */;
@@ -531,6 +542,7 @@
 				DEVELOPMENT_TEAM = W7QT2TK8Q3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NewsApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -559,6 +571,7 @@
 				DEVELOPMENT_TEAM = W7QT2TK8Q3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NewsApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -741,11 +754,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 66F634D42C54F370007CBE8C /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
-		};
-		66F634DF2C54F5BB007CBE8C /* AlamofireDynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 66F634D42C54F370007CBE8C /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = AlamofireDynamic;
 		};
 /* End XCSwiftPackageProductDependency section */
 

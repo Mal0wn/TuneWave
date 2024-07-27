@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RZ1-1Q-dxE">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22690"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,42 +16,32 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="ArticleCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="x0a-VG-IWE" customClass="ArticleTableViewCell" customModule="NewsApp" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="50" width="393" height="0.3333333432674408"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="ArticleCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ArticleCell" rowHeight="576" id="x0a-VG-IWE" customClass="ArticleTableViewCell" customModule="NewsApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="50" width="393" height="576"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="x0a-VG-IWE" id="RPQ-pw-n86">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="0.3333333432674408"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="576"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZEh-81-qqJ">
-                                            <rect key="frame" x="76.666666666666686" y="-43" width="240" height="86.333333333333329"/>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZEh-81-qqJ">
+                                            <rect key="frame" x="77" y="-43" width="240" height="231"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mrn-C3-3bI">
-                                            <rect key="frame" x="76.666666666666686" y="-43" width="240" height="86.333333333333329"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mrn-C3-3bI">
+                                            <rect key="frame" x="77" y="184" width="240" height="56"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vmb-5h-9DV">
-                                            <rect key="frame" x="175.66666666666666" y="-43" width="42" height="86.333333333333329"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vmb-5h-9DV">
+                                            <rect key="frame" x="77" y="242" width="240" height="93"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <constraints>
-                                        <constraint firstItem="ZEh-81-qqJ" firstAttribute="centerX" secondItem="RPQ-pw-n86" secondAttribute="centerX" id="47O-ul-ICG"/>
-                                        <constraint firstItem="ZEh-81-qqJ" firstAttribute="centerX" secondItem="Vmb-5h-9DV" secondAttribute="centerX" id="AQh-xe-CaF"/>
-                                        <constraint firstItem="ZEh-81-qqJ" firstAttribute="width" secondItem="RPQ-pw-n86" secondAttribute="width" multiplier="0.610687" id="D6J-BO-cxz"/>
-                                        <constraint firstItem="mrn-C3-3bI" firstAttribute="bottom" secondItem="ZEh-81-qqJ" secondAttribute="bottom" id="Dhl-Ql-uFY"/>
-                                        <constraint firstItem="ZEh-81-qqJ" firstAttribute="centerX" secondItem="mrn-C3-3bI" secondAttribute="centerX" id="IC7-t8-itr"/>
-                                        <constraint firstItem="ZEh-81-qqJ" firstAttribute="top" secondItem="RPQ-pw-n86" secondAttribute="topMargin" constant="-54" id="ICB-df-e48"/>
-                                        <constraint firstItem="ZEh-81-qqJ" firstAttribute="centerY" secondItem="Vmb-5h-9DV" secondAttribute="centerY" id="Jx3-fW-ofJ"/>
-                                        <constraint firstItem="ZEh-81-qqJ" firstAttribute="centerY" secondItem="mrn-C3-3bI" secondAttribute="centerY" id="Pf7-IS-9BA"/>
-                                        <constraint firstItem="ZEh-81-qqJ" firstAttribute="centerY" secondItem="RPQ-pw-n86" secondAttribute="centerY" id="T79-zk-agH"/>
-                                        <constraint firstItem="mrn-C3-3bI" firstAttribute="leading" secondItem="ZEh-81-qqJ" secondAttribute="leading" id="U1d-Fa-ffR"/>
-                                        <constraint firstItem="Vmb-5h-9DV" firstAttribute="bottom" secondItem="mrn-C3-3bI" secondAttribute="bottom" id="ap9-WG-rBC"/>
-                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="articleImageView" destination="ZEh-81-qqJ" id="P0M-eV-kVI"/>
