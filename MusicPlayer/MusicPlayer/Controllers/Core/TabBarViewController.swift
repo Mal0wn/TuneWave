@@ -36,7 +36,7 @@ class TabBarViewController: UITabBarController {
         // Add icon bar
         nav1.tabBarItem = UITabBarItem(title: "Home".localized, image: UIImage(systemName: "house"), tag: 1)
         nav2.tabBarItem = UITabBarItem(title: "Search".localized, image: UIImage(systemName: "magnifyingglass"), tag: 2)
-        nav3.tabBarItem = UITabBarItem(title: "Library".localized, image: UIImage(systemName: "books.vertical"), tag: 3)
+        nav3.tabBarItem = UITabBarItem(title: "Library".localized, image: UIImage(systemName: "music.note.list"), tag: 3)
         
         
         // Configure the display of large titles in UINavigationControllers.
