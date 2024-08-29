@@ -8,20 +8,20 @@
 import UIKit
 
 class WelcomeViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "TuneWave"
         view.backgroundColor = .white
         
-        // Create gradient
-        let gradientLayer = CAGradientLayer()
-        gradientLayer.frame = view.bounds
-        gradientLayer.colors = [UIColor.blueNonPhotoPastel.cgColor, UIColor.pinkPastel.cgColor]
-        gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.0)
-        gradientLayer.endPoint = CGPoint(x: 1.0, y: 1.0)
+        let gradientLayer = CAGradientLayer.createGradientLayer(
+            fromColor: UIColor.blueNonPhotoPastel,
+            toColor: UIColor.pinkPastel,
+            frame: view.bounds
+        )
         
-        // add gradient like under layer of the view 
+        
+        // add gradient like under layer of the view
         view.layer.insertSublayer(gradientLayer, at: 0)
         
     }
