@@ -29,6 +29,7 @@
 		6680DE742C810D31005EAA8E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6680DE732C810D31005EAA8E /* Colors.swift */; };
 		6680DE782C8116E2005EAA8E /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6680DE772C8116E2005EAA8E /* Config.plist */; };
 		6680DE7A2C811732005EAA8E /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6680DE792C811732005EAA8E /* ConfigManager.swift */; };
+		6680DE7C2C8118F9005EAA8E /* CAGradientLayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6680DE7B2C8118F9005EAA8E /* CAGradientLayer+Extension.swift */; };
 		66F1E1A92C80ED9E00F3E50B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F1E1A82C80ED9E00F3E50B /* AppDelegate.swift */; };
 		66F1E1AB2C80ED9E00F3E50B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F1E1AA2C80ED9E00F3E50B /* SceneDelegate.swift */; };
 		66F1E1AD2C80ED9E00F3E50B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F1E1AC2C80ED9E00F3E50B /* HomeViewController.swift */; };
@@ -82,6 +83,7 @@
 		6680DE732C810D31005EAA8E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		6680DE772C8116E2005EAA8E /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 		6680DE792C811732005EAA8E /* ConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigManager.swift; sourceTree = "<group>"; };
+		6680DE7B2C8118F9005EAA8E /* CAGradientLayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+Extension.swift"; sourceTree = "<group>"; };
 		66F1E1A52C80ED9E00F3E50B /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F1E1A82C80ED9E00F3E50B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66F1E1AA2C80ED9E00F3E50B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 				6680DE6A2C8106C4005EAA8E /* Localizable.strings */,
 				6680DE712C810895005EAA8E /* String+Extension.swift */,
 				6680DE732C810D31005EAA8E /* Colors.swift */,
+				6680DE7B2C8118F9005EAA8E /* CAGradientLayer+Extension.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 				6680DE4D2C80F979005EAA8E /* SettingsViewController.swift in Sources */,
 				6680DE572C80FA65005EAA8E /* AuthManager.swift in Sources */,
 				6680DE532C80F9AF005EAA8E /* PlaylistViewController.swift in Sources */,
+				6680DE7C2C8118F9005EAA8E /* CAGradientLayer+Extension.swift in Sources */,
 				6680DE552C80F9E1005EAA8E /* SearchResultsViewController.swift in Sources */,
 				6680DE592C80FA79005EAA8E /* APICaller.swift in Sources */,
 				6680DE5B2C80FA8A005EAA8E /* HapticsManager.swift in Sources */,
