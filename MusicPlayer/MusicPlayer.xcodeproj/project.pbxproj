@@ -27,6 +27,8 @@
 		6680DE6B2C8106C4005EAA8E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6680DE6A2C8106C4005EAA8E /* Localizable.strings */; };
 		6680DE722C810895005EAA8E /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6680DE712C810895005EAA8E /* String+Extension.swift */; };
 		6680DE742C810D31005EAA8E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6680DE732C810D31005EAA8E /* Colors.swift */; };
+		6680DE782C8116E2005EAA8E /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6680DE772C8116E2005EAA8E /* Config.plist */; };
+		6680DE7A2C811732005EAA8E /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6680DE792C811732005EAA8E /* ConfigManager.swift */; };
 		66F1E1A92C80ED9E00F3E50B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F1E1A82C80ED9E00F3E50B /* AppDelegate.swift */; };
 		66F1E1AB2C80ED9E00F3E50B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F1E1AA2C80ED9E00F3E50B /* SceneDelegate.swift */; };
 		66F1E1AD2C80ED9E00F3E50B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F1E1AC2C80ED9E00F3E50B /* HomeViewController.swift */; };
@@ -78,6 +80,8 @@
 		6680DE702C810755005EAA8E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6680DE712C810895005EAA8E /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		6680DE732C810D31005EAA8E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		6680DE772C8116E2005EAA8E /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		6680DE792C811732005EAA8E /* ConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigManager.swift; sourceTree = "<group>"; };
 		66F1E1A52C80ED9E00F3E50B /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F1E1A82C80ED9E00F3E50B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66F1E1AA2C80ED9E00F3E50B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -214,6 +218,8 @@
 				6680DE562C80FA65005EAA8E /* AuthManager.swift */,
 				6680DE582C80FA79005EAA8E /* APICaller.swift */,
 				6680DE5A2C80FA8A005EAA8E /* HapticsManager.swift */,
+				6680DE772C8116E2005EAA8E /* Config.plist */,
+				6680DE792C811732005EAA8E /* ConfigManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -358,6 +364,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6680DE782C8116E2005EAA8E /* Config.plist in Resources */,
 				66F1E1B52C80ED9F00F3E50B /* Assets.xcassets in Resources */,
 				6680DE6B2C8106C4005EAA8E /* Localizable.strings in Resources */,
 				66F1E1B82C80ED9F00F3E50B /* Base in Resources */,
@@ -408,6 +415,7 @@
 				6680DE412C80F4EB005EAA8E /* TabBarViewController.swift in Sources */,
 				6680DE612C80FAFF005EAA8E /* Artist.swift in Sources */,
 				66F1E1AB2C80ED9E00F3E50B /* SceneDelegate.swift in Sources */,
+				6680DE7A2C811732005EAA8E /* ConfigManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
