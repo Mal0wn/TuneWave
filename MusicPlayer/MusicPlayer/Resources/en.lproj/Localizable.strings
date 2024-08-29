@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  MusicPlayer
+
+  Created by Marine Michelot on 29/08/2024.
+  
+*/
+"Home" = "Home";
+"Library" = "Library";
+"Search" = "Search";
+
