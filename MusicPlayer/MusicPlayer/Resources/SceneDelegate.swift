@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  NewsApp
+//  MusicPlayer
 //
-//  Created by Marine Michelot on 27/07/2024.
+//  Created by Marine Michelot on 29/08/2024.
 //
 
 import UIKit
@@ -13,21 +13,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-            // Assurez-vous que `window` est correctement initialisé
-            guard let windowScene = (scene as? UIWindowScene) else { return }
-            
-            // Créez une nouvelle fenêtre pour la scène
-            window = UIWindow(windowScene: windowScene)
-            
-            // Chargez le storyboard
-            let storyboard = UIStoryboard(name: "ArticleView", bundle: nil) // Assurez-vous que le nom du storyboard est correct
-            let initialViewController = storyboard.instantiateInitialViewController()
-            
-            // Définissez le contrôleur de vue initial comme racine de la fenêtre
-            window?.rootViewController = initialViewController
-            window?.makeKeyAndVisible()
-        }
-
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        let window = UIWindow(windowScene: windowScene)
+        window.rootViewController = ViewController()
+        window.makeKeyAndVisible()
+        self.window = window
+        
+        guard let _ = (scene as? UIWindowScene) else { return }
+    }
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.

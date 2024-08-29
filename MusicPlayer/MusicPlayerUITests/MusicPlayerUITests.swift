@@ -1,13 +1,13 @@
 //
-//  NewsAppUITests.swift
-//  NewsAppUITests
+//  MusicPlayerUITests.swift
+//  MusicPlayerUITests
 //
-//  Created by Marine Michelot on 27/07/2024.
+//  Created by Marine Michelot on 29/08/2024.
 //
 
 import XCTest
 
-final class NewsAppUITests: XCTestCase {
+final class MusicPlayerUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

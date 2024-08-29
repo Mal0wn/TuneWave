@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  NewsApp
+//  MusicPlayer
 //
-//  Created by Marine Michelot on 27/07/2024.
+//  Created by Marine Michelot on 29/08/2024.
 //
 
 import UIKit
@@ -11,7 +11,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        title = "Home"
+        view.backgroundColor = .purple
     }
 
 

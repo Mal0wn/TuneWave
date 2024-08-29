@@ -1,13 +1,13 @@
 //
-//  NewsAppUITestsLaunchTests.swift
-//  NewsAppUITests
+//  MusicPlayerUITestsLaunchTests.swift
+//  MusicPlayerUITests
 //
-//  Created by Marine Michelot on 27/07/2024.
+//  Created by Marine Michelot on 29/08/2024.
 //
 
 import XCTest
 
-final class NewsAppUITestsLaunchTests: XCTestCase {
+final class MusicPlayerUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
