@@ -17,6 +17,14 @@ final class AuthManager {
     
     private init() {}
     
+    public var signInUrl: URL? {
+        let scopes = "user-read-private"
+        let redirectURI = "github.com/Mal0wn/TuneWave/issues"
+        let baseURL = "https://accounts.spotify.com/authorize"
+        let urlString = "\(baseURL)?response_type=code&client_id=\(Constants.clientID ?? "")&scope=\(scopes)&redirect_uri=\(redirectURI)"
+        return URL(string: urlString)
+    }
+    
     var isSignedIn : Bool {
         return false
     }

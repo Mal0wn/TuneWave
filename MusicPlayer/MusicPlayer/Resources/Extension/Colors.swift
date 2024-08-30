@@ -38,4 +38,5 @@ extension UIColor {
     static let blueElectricPastel = UIColor(hex: 0x8EECF5)
     static let aquaMarinePastel = UIColor(hex: 0x98F5E1)
     static let greenApplePastel = UIColor(hex: 0xB9FBC0)
+    static let tealBlue = UIColor(hex: 0x118ab2)
 }
